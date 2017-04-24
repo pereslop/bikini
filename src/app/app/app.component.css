@@ -1,0 +1,23 @@
+.navbar {
+  margin-bottom: 0;
+  border-width: 0;
+  background-color: black;
+}
+.navbar-static-bottom {
+  border-radius: 0;
+}
+.footer {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer p a {
+  color: white;
+}
+
+.navbar-brand {
+  font: 30px solid;
+  padding: 10px 10px;
+  padding-bottom: 11px;
+  color: white;
+}

@@ -1,0 +1,21 @@
+.row div {
+  background: #000;
+  color: #a6e1ec;
+}
+.about-main {
+  background-color: black;
+}
+.row {
+  margin-top: 20px;
+}
+div .center-button {
+  margin-top: 35px;
+}
+.center-button button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.col-lg-5 {
+  margin-top: 40px;
+}

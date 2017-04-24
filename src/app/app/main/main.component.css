@@ -1,0 +1,20 @@
+.backgroundimg {
+  background-size: cover;
+  background: url("images/dirty_car_bg.jpg") no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+}
+.h2 {
+  font: 45px solid white;
+  margin-top: 50px;
+  padding-top: 50px;
+  text-shadow: 1px 0 rgba(15, 15, 16, 0.8);
+}
+.h1 {
+  font-size: 52px;
+  text-shadow: 1px 0 rgba(15, 15, 16, 0.8);
+}

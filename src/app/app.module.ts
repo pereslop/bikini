@@ -9,6 +9,9 @@ import { MainComponent } from './main/main.component';
 import { AboutComponent } from './about/about.component';
 import { OrderComponent } from './order/order.component';
 import { ContactComponent } from './contact/contact.component';
+import { GirlImageComponent } from './girl-image/girl-image.component';
+
+
 
 @NgModule({
   declarations: [
@@ -18,6 +21,7 @@ import { ContactComponent } from './contact/contact.component';
     OrderComponent,
     ContactComponent,
     OrderComponent,
+    GirlImageComponent,
   ],
   imports: [
     BrowserModule,

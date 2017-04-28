@@ -10,6 +10,8 @@
 }
 div .center-button {
   margin-top: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .center-button button {
   margin-top: 30px;

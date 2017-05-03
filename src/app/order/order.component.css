@@ -1,4 +1,22 @@
 li {
   margin: 30px;
   list-style-type: none;
+  background-color: aliceblue;
+  color: #000;
+  width: 80px;
+  height: 31px;
+  border-radius: 5px;
+  padding-left: 7px;
+  padding-top: 7px;
+  font: 15px bold;
+  margin: 3px 3px;
+  align: center;
+}
+.row {
+  margin-top: 30px;
+}
+li:hover {
+  background-color:rgba(26,26,26,0.8);
+  color: white;
+  font-size: 18px;
 }

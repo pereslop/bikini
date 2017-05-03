@@ -1,0 +1,11 @@
+{
+"girls" : [
+  {"id": 11, "name" : "Miraje", "interests": "music, photography", "imageSrc": "../assets/images/Miraje.jpg"},
+  {"id": 22, "name" : "Debora", "interests": "dancing, traveling", "imageSrc": "../assets/images/Debora.jpg"},
+  {"id": 33, "name" : "Lada", "interests": "dancing, traveling", "imageSrc": "../assets/images/Lada.jpg"},
+  {"id": 55, "name" : "Mistic", "interests": "dancing,  traveling", "imageSrc": "../assets/images/Mistic.jpg"},
+  {"id": 66, "name" : "Laura", "interests": "dancing,  traveling", "imageSrc": "../assets/images/Laura.jpg"},
+  {"id": 77, "name" : "Nancy", "interests": "dancing, traveling", "imageSrc": "../assets/images/Nancy.jpg"}
+]
+}
+

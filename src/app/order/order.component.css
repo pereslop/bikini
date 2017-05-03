@@ -3,13 +3,13 @@ li {
   list-style-type: none;
   background-color: aliceblue;
   color: #000;
-  width: 80px;
-  height: 31px;
+  width: 120px;
+  height: 40px;
   border-radius: 5px;
-  padding-left: 7px;
+  padding-left: 10px;
   padding-top: 7px;
-  font: 15px bold;
-  margin: 3px 3px;
+  font: 20px bold;
+
   align: center;
 }
 .row {
@@ -18,5 +18,16 @@ li {
 li:hover {
   background-color:rgba(26,26,26,0.8);
   color: white;
-  font-size: 18px;
+  font-size: 22px;
+}
+li.selected:hover {
+  background-color: #BBD8DC !important;
+}
+.selected {
+  background-color: rgba(61,61,61,0.8) !important;
+  font-size: 23px;
+  color: white;
+}
+.girls-description {
+  margin-left: 50px;
 }

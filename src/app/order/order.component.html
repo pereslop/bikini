@@ -1,12 +1,23 @@
 <div class="container">
+  <div class="row text-center" >
+    <h1>Our workers</h1>
+  </div>
   <div class="row">
     <div class="col-md-4">
       <ul>
-        <li *ngFor="let girl of girls">{{girl.name}}</li>
+        <li *ngFor="let girl of girls"
+            [class.selected]="girl === selectedGirl"
+            (click)="getSelectedGirl(girl)">
+          {{girl.name}}
+        </li>
       </ul>
     </div>
-    <div class="col-md-8" >
-      it is working
+    <div class="col-md-8 girls-description"  >
+      <div *ngIf = "selectedGirl">
+        <h2>{{selectedGirl?.name}}</h2>
+        <h2>{{selectedGirl?.interests}}</h2>
+        <img src="{{selectedGirl?.imageSrc}}" alt="girl image" class="text-center">
+      </div>
     </div>
   </div>
 </div>

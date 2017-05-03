@@ -8,10 +8,12 @@
 .row {
   margin-top: 20px;
 }
+
 div .center-button {
   margin-top: 35px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 50px;
 }
 .center-button button {
   margin-top: 30px;
@@ -20,4 +22,7 @@ div .center-button {
 
 .col-lg-5 {
   margin-top: 40px;
+}
+img {
+ align-self: center;
 }

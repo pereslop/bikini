@@ -1,7 +1,9 @@
 .navbar {
-  margin-bottom: 0;
+  margin-bottom: 0px;
   border-width: 0;
   background-color: black;
+  position: fixed;
+
 }
 
 .navbar-static-bottom {
@@ -26,3 +28,4 @@ footer {
   padding-bottom: 11px;
   color: white;
 }
+

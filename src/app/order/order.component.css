@@ -29,5 +29,8 @@ li.selected:hover {
   color: white;
 }
 .girls-description {
-  margin-left: 50px;
+  padding-left: 50px;
+}
+.girls-description img {
+  margin: 20px;
 }

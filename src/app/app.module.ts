@@ -11,8 +11,6 @@ import { OrderComponent } from './order/order.component';
 import { ContactComponent } from './contact/contact.component';
 import { GirlImageComponent } from './girl-image/girl-image.component';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,

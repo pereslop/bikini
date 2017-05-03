@@ -1,13 +1,12 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-
-    <ul>
-      <li  *ngFor="let girl of girls" type="button"class="btn btn-default btn-lg active></li>
-    </ul>
+      <ul>
+        <li *ngFor="let girl of girls">{{girl.name}}</li>
+      </ul>
     </div>
-    <div class="col-md-8" style="border:1px solid white;">
-
+    <div class="col-md-8" >
+      it is working
     </div>
   </div>
 </div>

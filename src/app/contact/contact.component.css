@@ -15,3 +15,6 @@ h2 {
 .row {
   margin-top: 150px;
 }
+.container {
+  background-color: black;
+}

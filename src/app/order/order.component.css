@@ -29,12 +29,15 @@ li.selected:hover {
   color: white;
 }
 .girls-description {
-  padding-left: 20px;
+  padding-left: 10px;
 }
 .girls-description img {
  padding-bottom: 20px;
 }
-h1 {
-   margin-top: 70px;
- }
+h3 span {
+  font-size: smaller;
+}
+.container {
+  background-color: black;
+}
 

@@ -18,9 +18,22 @@ export class OrderComponent implements OnInit {
     this.girlService.getGirls()
       .subscribe((data) => {
         this.girls = data.girls;
+        this.selectedGirl = this.girls[0];
+        this.girls[0].selected = true;
       });
   };
     getSelectedGirl(girlSelected: Girl) {
     this.selectedGirl = girlSelected;
+    this.selectedGirlShow();
+  }
+
+  selectedGirlShow(){
+      for (let i = 0; i < this.girls.length; i++) {
+        if (this.girls[i].name === this.selectedGirl.name) {
+          this.girls[i].selected  = true
+        } else {
+          this.girls[i].selected = false;
+        }
+    }
   }
 }

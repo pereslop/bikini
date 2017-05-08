@@ -19,20 +19,20 @@ li:hover {
   background-color:rgba(26,26,26,0.8);
   color: white;
   font-size: 22px;
+  cursor: pointer;
 }
-li.selected:hover {
-  background-color: #BBD8DC !important;
-}
+
 .selected {
   background-color: rgba(61,61,61,0.8) !important;
   font-size: 23px;
   color: white;
 }
 .girls-description {
-  padding-left: 10px;
-}
+
+  }
 .girls-description img {
  padding-bottom: 20px;
+  padding-right: 30px;
 }
 h3 span {
   font-size: smaller;

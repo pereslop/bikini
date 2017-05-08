@@ -19,10 +19,9 @@ li:hover {
   background-color:rgba(26,26,26,0.8);
   color: white;
   font-size: 22px;
+  cursor: pointer;
 }
-li.selected:hover {
-  background-color: #BBD8DC !important;
-}
+
 .selected {
   background-color: rgba(61,61,61,0.8) !important;
   font-size: 23px;

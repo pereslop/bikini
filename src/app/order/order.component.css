@@ -29,10 +29,11 @@ li.selected:hover {
   color: white;
 }
 .girls-description {
-  padding-left: 10px;
-}
+
+  }
 .girls-description img {
  padding-bottom: 20px;
+  padding-right: 30px;
 }
 h3 span {
   font-size: smaller;
